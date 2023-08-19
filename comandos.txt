@@ -1,0 +1,20 @@
+  139  mkdir 19082023AlexandraDeLaCruz
+  140  cd 19082023AlexandraDeLaCruz
+  141  git init
+  142  git remote add origin https://github.com/alexdf2909/19082023AlexandraDeLaCruz.git
+  143  touch main.js index.html
+  144  git add .
+  145  git commit -m "commit 01 de AlexandraDeLaCruz"
+  146  git push origin main
+  147  git branch feature
+  148  git checkout feature
+  149  mkdir Hardware Software SeguridadInformatica
+  150  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  151  git add .
+  152  git commit -m "commit 02 de AlexandraDeLaCruz"
+  153  git push origin feature
+  154  git checkout main
+  155  git mv main.js resumenHardware.txt
+  156  git mv index.html resumenSoftware.txt
+  157  touch comandos.txt
+  158  history 20 > comandos.txt
